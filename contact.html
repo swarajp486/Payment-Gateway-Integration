@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>PAYMENT GATEWAY INTEGRATION</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="dono.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="main">
+        <div class="logo">
+            <a href="index.html"> <img src="image/logo.jpg" alt=""></a>
+           
+        </div>
+        <ul>
+            <li class="active"><a  href="index.html">HOME</a></li>
+            <li><a href="donate.html">DONATE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </div>
+
+<div class="w3-container w3-light-grey" style="padding:80px " id="contact">
+    <div >
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> THE HANGAR, NUS ENTERPRISE
+        21 HENG MUI KENG TERRACE, SINGAPORE, 119613</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +65-8402-8590, </p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@thesparksfoundation.sg</p>
+      <br>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+  </div>
+  <center>
+  <div class="w3-xlarge w3-section">
+    <a target="_blank" href="https://www.facebook.com/thesparksfoundation.info"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a target="_blank" href="https://instagram.com/thesparksfoundation.info"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a target="_blank" href="https://medium.com/thesparksfoundation"><i class="fa fa-medium w3-hover-opacity"></i></a>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <a target="_blank" href="https://thesparksfoundation.info"><i class="fa fa-globe" aria-hidden="true"></i></a>
+    <a target="_blank" href="https://twitter.com/tsfsingapore"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/company/the-sparks-foundation/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</center>
+
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    
+    
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+    
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+    
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+    </script>
+  </header>
+</body>
+</html>

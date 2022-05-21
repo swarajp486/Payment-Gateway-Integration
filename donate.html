@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dono.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+        <div class="main">
+            <div class="logo">
+                <a href="index.html"> <img src="image/logo.jpg" alt=""></a>
+               
+            </div>
+            <ul>
+                <li class="active"><a  href="index.html">HOME</a></li>
+                <li><a href="donate.html">DONATE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+
+    
+
+
+
+        <script>
+            // Modal Image Gallery
+            function onClick(element) {
+              document.getElementById("img01").src = element.src;
+              document.getElementById("modal01").style.display = "block";
+              var captionText = document.getElementById("caption");
+              captionText.innerHTML = element.alt;
+            }
+            
+            
+            // Toggle between showing and hiding the sidebar when clicking the menu icon
+            var mySidebar = document.getElementById("mySidebar");
+            
+            function w3_open() {
+              if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+              } else {
+                mySidebar.style.display = 'block';
+              }
+            }
+            
+            // Close the sidebar with the close button
+            function w3_close() {
+                mySidebar.style.display = "none";
+            }
+            </script>
+            <br><br><br>
+            <center>
+            <p><i>The value of life is not in its duration, but in its donation<i></p>
+            
+            <img src="https://razorpay.com/blog-content/uploads/2019/08/7-Reasons-Why-Razorpay-is-Right-for-You.png" height="400" width="800">
+            </img>
+            <br><br>
+            
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JV3iWacFzmKlID" async> </script> </form>
+            </center>
+   </header>
+</body>
+</html>
